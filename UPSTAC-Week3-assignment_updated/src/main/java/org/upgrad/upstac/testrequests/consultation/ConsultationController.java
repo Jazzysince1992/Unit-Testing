@@ -57,9 +57,7 @@ public class ConsultationController {
         // make use of the findBy() method from testRequestQueryService class
         //return the result
         // For reference check the method getForTests() method from LabRequestController class
-
-        // replace this line of code with your implementation
-        throw new ResponseStatusException(HttpStatus.NOT_IMPLEMENTED,"Not implemented");
+        return testRequestQueryService.findBy(RequestStatus.IMPLIMENTED);
 
         
 
